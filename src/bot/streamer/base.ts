@@ -1,6 +1,7 @@
 import gramtgcalls from "../../userbot/gramtgcalls";
 import queues from "../../queues";
 import { Item } from "../../queues";
+import { client } from "../../userbot";
 
 export const getOnFinish = (chatId: number) => async () => {
     const item = queues.get(chatId);
@@ -20,6 +21,9 @@ export async function stop(chatId: number) {
 }
 
 export async function stream(chatId: number, item: Item, force?: boolean) {
+    console.log(chatId);
+    console.log(typeof chatId);
+    console.log(client.session.getInputEntity(chatId));
     const finished = gramtgcalls.finished(chatId) != false;
 
     if (finished || force) {
