@@ -1,23 +1,23 @@
 {
-    "name": "Calls Music Remix",
-    "description": "Stream audio in Telegram group calls using GramJS and tgcallsjs",
+    "name": "Tech Remix",
+    "description": "Stream audio in Telegram group calls using GramJS and tgcallsjs by SL MEADIA TECH",
     "keywords": ["telegram", "music", "gram-tgcalls", "tgcallsjs", "gramjs"],
     "repository": "https://github.com/callsmusic/CallsMusicRemix",
     "env": {
         "BOT_TOKEN": {
-            "description": "Bot token from @BotFather.",
+            "description": "1964717639:AAHoJsQjKD2cE6ObACgen3NhAcXNXu7NrK0",
             "required": true
         },
         "STRING_SESSION": {
-            "description": "GramJS string session. You can generate one at https://rojserbest.github.io/bssg.",
+            "description": "BQBb5cusKP4nuAea858Qpy2gVGw4gKN8TK2cEQavFUysAAU-UYIDmxDw2gNN7ItlcQSbRusQTWFLVUVGC7b7kdjObLYWrl2LerJlNLYpQVtKpAjTnrBDhKRwacW3Ei-357PspM6MmtPYtXFW5jWzJm8oFWrM7OYLsVLVJmSfiodAUjPnNeERPPCHEDC4S6FdVIHgp45VCwldkY1H3LhCjOeejYmldecqFXz3ei_DqSKRYUre7n8zNI89bG0CE93JSNmlUEUKojHV4gJ_pJ3ajy-cqkOz5l75flX_1Qwb2FD5nX1OfUcjKrOasKtjGAsHny47_ktc_SaoU9Oa--iGH5RxYhViYgA",
             "required": true
         },
         "API_ID": {
-            "description": "App ID from https://my.telegram.org/apps.",
+            "description": "6914958",
             "required": true
         },
         "API_HASH": {
-            "description": "App hash from https://my.telegram.org/apps.",
+            "description": "67a74766ba6d9183d57a9dd51b85a8f3",
             "required": true
         }
     },
